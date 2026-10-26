@@ -1,0 +1,148 @@
+{
+  "fossils": [
+    {
+      "id": "ammonite",
+      "name": "Ammoniet",
+      "period": "Jura",
+      "age": "Ongeveer 150 miljoen jaar oud",
+      "shortDescription": "Een ammoniet was een zeedier met een spiraalvormige schelp. Het leefde in de zee en lijkt een beetje op een inktvis met een huisje.",
+      "audioPath": "/uploads/audio/ammoniet_audio.mp3",
+      "audioScript": "",
+      "imagePaths": [
+        "/fossiel-images/ammoniet_1.jpg",
+        "/fossiel-images/ammoniet_2.jpg",
+        "/fossiel-images/ammoniet_3.jpg"
+      ],
+      "rfidUids": [
+        "2B37805DC1"
+      ],
+      "ledNumber": 1
+    },
+    {
+      "id": "trilobite",
+      "name": "Trilobiet",
+      "period": "Cambrium tot Perm",
+      "age": "Meer dan 250 miljoen jaar oud",
+      "shortDescription": "Een trilobiet was een klein zeedier met een hard pantser. Het kroop over de zeebodem en bestond in veel verschillende vormen.",
+      "audioPath": "/uploads/audio/trilobiet_audio.mp3",
+      "audioScript": "",
+      "imagePaths": [
+        "/fossiel-images/trilobiet_1.jpg",
+        "/fossiel-images/trilobiet_2.jpg",
+        "/fossiel-images/trilobiet_3.jpg"
+      ],
+      "rfidUids": [
+        "2B378D5DCC"
+      ],
+      "ledNumber": 2
+    },
+    {
+      "id": "shark-tooth",
+      "name": "Haaientand",
+      "period": "Mioceen",
+      "age": "Ongeveer 10 miljoen jaar oud",
+      "shortDescription": "Een fossiele haaientand blijft vaak goed bewaard omdat tanden harder zijn dan veel andere delen van een dier.",
+      "audioPath": "/uploads/audio/haaientand_audio.mp3",
+      "audioScript": "",
+      "imagePaths": [
+        "/fossiel-images/haaientand_1.jpg",
+        "/fossiel-images/haaientand_2.webp",
+        "/fossiel-images/haaientand_3.webp"
+      ],
+      "rfidUids": [
+        "2B37865DC7"
+      ],
+      "ledNumber": 5
+    },
+    {
+      "id": "mammoth-tooth",
+      "name": "Mammoetkies",
+      "period": "IJstijd",
+      "age": "Ongeveer 40.000 jaar oud",
+      "shortDescription": "Een mammoet gebruikte zijn grote kiezen om gras en planten fijn te malen. Mammoeten leefden tijdens de ijstijd.",
+      "audioPath": "/uploads/audio/mammoetkies_audio.mp3",
+      "audioScript": "",
+      "imagePaths": [
+        "/fossiel-images/mammoetkies_1.avif",
+        "/fossiel-images/mammoetkies_2.avif",
+        "/fossiel-images/mammoetkies_3.jpg"
+      ],
+      "rfidUids": [
+        "2B37855DC4"
+      ],
+      "ledNumber": 8
+    },
+    {
+      "id": "fossil-shell",
+      "name": "Fossiele schelp",
+      "period": "Cenozoïcum",
+      "age": "Ongeveer 20 miljoen jaar oud",
+      "shortDescription": "Deze schelp is versteend nadat ze lang onder zand en modder begraven lag.",
+      "audioPath": "/uploads/audio/fossiele-schelp_audio.mp3",
+      "audioScript": "",
+      "imagePaths": [
+        "/fossiel-images/fossiele-schelp_1.jpg",
+        "/fossiel-images/fossiele-schelp_2.jpeg",
+        "/fossiel-images/fossiele-schelp_3.jpg"
+      ],
+      "rfidUids": [
+        "2B37885DC9"
+      ],
+      "ledNumber": 3
+    },
+    {
+      "id": "dino-tooth",
+      "name": "Dinotand",
+      "period": "Krijt",
+      "age": "Ongeveer 70 miljoen jaar oud",
+      "shortDescription": "Een fossiele tand kan veel vertellen over wat een dinosaurus at en hoe hij leefde.",
+      "audioPath": "/uploads/audio/dinotand_audio.mp3",
+      "audioScript": "",
+      "imagePaths": [
+        "/fossiel-images/dinotand_1.webp",
+        "/fossiel-images/dinotand_2.jpeg",
+        "/fossiel-images/dinotand_3.avif"
+      ],
+      "rfidUids": [
+        "2B37905DD1"
+      ],
+      "ledNumber": 7
+    },
+    {
+      "id": "plant-fossil",
+      "name": "Zee-egel",
+      "period": "Krijt",
+      "age": "Ongeveer 145 tot 66 miljoen jaar oud",
+      "shortDescription": "Zee-egels zijn zeedieren met een harde kalkschaal en stekels. Na hun dood kunnen de stekels verdwijnen, terwijl de stevige schaal fossiliseert. De kleine puntjes op het fossiel zijn plaatsen waar de stekels vastzaten.",
+      "audioPath": "/uploads/audio/zee-egel_audio.mp3",
+      "audioScript": "",
+      "imagePaths": [
+        "/fossiel-images/zee-egel_1.jpg",
+        "/fossiel-images/zee-egel_2.jpg",
+        "/fossiel-images/zee-egel_3.jpg"
+      ],
+      "rfidUids": [
+        "2B37965DD7"
+      ],
+      "ledNumber": 4
+    },
+    {
+      "id": "petrified-wood",
+      "name": "Rotshagedis",
+      "period": "Trias",
+      "age": "Ongeveer 250 tot 200 miljoen jaar geleden",
+      "shortDescription": "Een rotshagedis was een vroeg reptiel dat leefde tijdens het Trias. Het had een lang lichaam, vier poten en een lange staart.",
+      "audioPath": "/uploads/audio/rotshagedis_audio.mp3",
+      "audioScript": "",
+      "imagePaths": [
+        "/fossiel-images/rotshagedis_1.jpeg",
+        "/fossiel-images/rotshagedis_2.jpeg",
+        "/fossiel-images/rotshagedis_3.jpg"
+      ],
+      "rfidUids": [
+        "2B37955DD4"
+      ],
+      "ledNumber": 6
+    }
+  ]
+}

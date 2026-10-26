@@ -1,0 +1,11 @@
+{
+  "diplomaEnabled": true,
+  "audioEnabled": false,
+  "completionDurationSeconds": 10,
+  "diplomaTitle": "Proficiat!",
+  "diplomaDescription": "Je hebt alle fossielen gevonden. Je mag nu je diploma gaan halen.\nBedankt om mee op fossielenavontuur te gaan.",
+  "noDiplomaTitle": "Alle fossielen gevonden!",
+  "noDiplomaDescription": "Goed gedaan. Je hebt alle fossielen van het Fossielenspoor gevonden. \nBedankt om mee op fossielenavontuur te gaan.",
+  "diplomaAudioPath": "/uploads/audio/fossiel_audio.mp3",
+  "noDiplomaAudioPath": "/uploads/audio/fossiel_audio.mp3"
+}

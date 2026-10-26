@@ -1,0 +1,135 @@
+.idle-screen {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: clamp(58px, 6vw, 96px) clamp(72px, 6vw, 120px);
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.88), transparent 30%),
+    radial-gradient(circle at 78% 54%, rgba(207, 154, 83, 0.16), transparent 38%),
+    linear-gradient(135deg, #f9f5ec 0%, #f5eddf 42%, #efe0c5 100%);
+  animation: idleFadeIn 480ms ease;
+}
+
+.idle-copy {
+  position: relative;
+  z-index: 2;
+  width: min(58vw, 980px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.idle-brand {
+  margin-bottom: clamp(34px, 4.6vh, 58px);
+}
+
+.idle-brand strong {
+  display: block;
+  color: #4b1f0d;
+  font-family: "Mabry Black", "Lato", Arial, sans-serif;
+  font-size: clamp(3rem, 3.7vw, 4.8rem);
+  font-weight: 950;
+  line-height: 0.82;
+  letter-spacing: -0.06em;
+}
+
+.idle-brand span {
+  display: block;
+  margin-top: 9px;
+  color: #9b5a2c;
+  font-size: clamp(1rem, 1.1vw, 1.28rem);
+  font-weight: 900;
+  letter-spacing: 0.035em;
+}
+
+.idle-copy h1 {
+  max-width: 980px;
+  margin: 0;
+  color: #3b1609;
+  font-family: "Mabry Black", "Lato", Arial, sans-serif;
+  font-size: clamp(6rem, 8.4vw, 10.8rem);
+  font-weight: 950;
+  line-height: 0.82;
+  letter-spacing: -0.09em;
+  text-shadow: 0 18px 42px rgba(73, 35, 12, 0.08);
+}
+
+.idle-info {
+  margin-top: clamp(58px, 7vh, 94px);
+  max-width: 1080px;
+}
+
+.idle-kicker {
+  width: fit-content;
+  margin: 0 0 28px;
+  color: #4a1d0c;
+  font-family: "Mabry Black", "Lato", Arial, sans-serif;
+  font-size: clamp(2.4rem, 3vw, 4rem);
+  font-weight: 950;
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+  position: relative;
+}
+
+.idle-kicker::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  bottom: -12px;
+  width: 72%;
+  height: 5px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(164, 91, 42, 0.8),
+    rgba(222, 175, 93, 0)
+  );
+}
+
+.idle-description {
+  max-width: 1050px;
+  margin: 0;
+  color: #52301d;
+  font-size: clamp(1.55rem, 1.95vw, 2.45rem);
+  font-weight: 650;
+  line-height: 1.18;
+  letter-spacing: -0.035em;
+}
+
+.idle-wheel {
+  position: absolute;
+  right: clamp(-260px, -11vw, -90px);
+  bottom: clamp(-260px, -12vw, -90px);
+  width: clamp(620px, 53vw, 940px);
+  height: auto;
+  opacity: 0.18;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+  transform-origin: center center;
+  animation: idleWheelSpin 95s linear infinite;
+}
+
+@keyframes idleWheelSpin {
+  from {
+    transform: rotate(-8deg);
+  }
+
+  to {
+    transform: rotate(352deg);
+  }
+}
+
+@keyframes idleFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
